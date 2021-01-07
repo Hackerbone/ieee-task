@@ -207,10 +207,12 @@
                     "width":"0",
                     "padding":"0"
             });
+                $('.right-card').hide(400);
                 $('.left-card').css("justify-content","space-around");
                 $('.left-hidden').fadeIn(400);
             })
             $(".cardpane").mouseleave(function(){
+                $('.right-card').show(100);
                 $('.right-card').css({
                     "width":"100%",
                     "padding":"auto"
